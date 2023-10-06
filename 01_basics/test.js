@@ -1,2 +1,2 @@
-console.log('Bhaumik Patel')
-console.log('Khushali Patel')
+var a = 3
+console.log(a)
