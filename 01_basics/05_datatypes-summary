@@ -1,0 +1,36 @@
+// Primitive
+
+// 6-types : String Primitive value: JavaScript provides six types of primitive values that include Number, String, Boolean, Undefined, Symbol, and BigInt. The size of Primitive values are fixed, therefore JavaScript stores the primitive value in the call stack (Execution context).
+
+//When we access a primitive value, we manipulate the actual value stored in that variable. Thus, variables that are primitive are accessed by Value. When we assign a variable that stores a primitive value to another, the value stored in the variable is created and copied into the new variable.
+
+//JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
+
+
+const score = 100;
+const scoreValue = 100.3;
+const isLoggedIn = false
+const outsidetemp = null
+let userEmail ;
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId)
+const bigNumber = 4365443253647543
+
+
+//reference type: 
+
+// Reference Value: JavaScript provides three types of Reference values that include Array, Object, and Function. The size of a reference value is dynamic therefore It is stored on Heap.
+
+const heros = ["shaktiman", "naagraj" , "doga"] //array
+
+let myObj = {
+    name:"bhaumik",
+    age :22,
+}
+
+const myFunc = function (){
+    console.log("Hello World");
+}
+
