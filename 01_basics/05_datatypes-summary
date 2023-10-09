@@ -34,3 +34,8 @@ const myFunc = function (){
     console.log("Hello World");
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive) , Heap(Non-primitive)
+
+let myYoutubeName = "explained"
